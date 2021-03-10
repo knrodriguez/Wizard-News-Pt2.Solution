@@ -3,7 +3,6 @@ const pg = require('pg');
 const client = new pg.Client({
     host: 'localhost',
     database: 'wnews',
-    port: 5432,
 });
 
 //connect takes a callback function in the event there is an error
